@@ -17,7 +17,7 @@ const updateIndicator = (target) => {
   gsap.to(indicator, {
     x: offset,
     width: width,
-    duration: 1,
+    duration: 0.5,
     ease: "back.out(1.7)",
   });
 
