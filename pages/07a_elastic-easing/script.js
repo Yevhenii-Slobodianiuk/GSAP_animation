@@ -52,7 +52,7 @@ function renderChart() {
       scaleY: 1,
       duration: 1,
       ease: "elastic.out(1, 2)",
-      delay: i * 0.2,
+      delay: i * 0.1,
     });
   });
 }
