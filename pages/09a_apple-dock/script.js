@@ -4,11 +4,11 @@ const icons = document.querySelectorAll(".icon"); // Individual icons inside the
 const trigger = document.querySelector(".dock-trigger"); // Hover trigger area above the dock
 
 // State variables to control hover and animation logic
-let isDockVisible = false;        // Is the dock currently visible?
-let isDockHovered = false;        // Is the user's mouse inside the dock?
-let isTriggerHovered = false;     // Is the user hovering the trigger area?
-let isReadyForHover = false;      // Should proximity scaling be active?
-let hasDockEntered = false;       // Tracks if the dock has been hovered at least once
+let isDockVisible = false; // Is the dock currently visible?
+let isDockHovered = false; // Is the user's mouse inside the dock?
+let isTriggerHovered = false; // Is the user hovering the trigger area?
+let isReadyForHover = false; // Should proximity scaling be active?
+let hasDockEntered = false; // Tracks if the dock has been hovered at least once
 
 // Mouse enters the trigger area (above the dock)
 trigger.addEventListener("mouseenter", () => {
