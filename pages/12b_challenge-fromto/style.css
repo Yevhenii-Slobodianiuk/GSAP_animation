@@ -1,5 +1,6 @@
 .reactions {
   display: flex;
+  position: relative;
   flex-direction: row;
   justify-content: space-between;
   gap: 40px;
@@ -10,6 +11,7 @@
 }
 
 .reactions button {
+  position: relative;
   font-size: 28px;
   background: none;
   border: none;
@@ -24,6 +26,9 @@
 
 .bubble {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 28px;
   pointer-events: none;
   will-change: transform, opacity;
