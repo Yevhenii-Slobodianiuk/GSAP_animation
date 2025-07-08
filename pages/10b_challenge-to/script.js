@@ -50,7 +50,10 @@ const showToasts = () => {
       },
     });
   });
-};
-showToasts();
 
-setInterval(() => showToasts(), 15000);
+  const totalDurationInMs = (toasts.length - 1) * 5000 + 3000 + 3000;
+
+  setTimeout(showToasts, totalDurationInMs);
+};
+
+showToasts();
